@@ -17,19 +17,7 @@ After transformation, the data is saved in two formats:
 
 The program also runs an SQL query to display countries with GDP greater than or equal to 100 billion US dollars.
 
-## Technologies Used
-
-The project uses the following Python libraries:
-
-```python
-from bs4 import BeautifulSoup
-import requests
-import pandas as pd
-import numpy as np
-import sqlite3
-from datetime import datetime
-
-Skills Practiced
+## Skills Practiced
 This project helped practice the following skills:
 Python programming
 Web scraping
