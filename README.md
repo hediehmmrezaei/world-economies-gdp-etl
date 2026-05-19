@@ -34,31 +34,32 @@ Organizing a project for GitHub
 Project Workflow
 The complete workflow of the project is:
 Start ETL process
-        ↓
+        
 Extract GDP data from web page
-        ↓
+        
 Store extracted data in a Pandas DataFrame
-        ↓
+        
 Clean and transform GDP values
-        ↓
+        
 Convert GDP from millions to billions
-        ↓
+        
 Save transformed data to CSV
-        ↓
+        
 Connect to SQLite database
-        ↓
+        
 Load data into database table
-        ↓
+        
 Run SQL query
-        ↓
+        
 Save progress messages in log file
-        ↓
+        
 Close database connection
+
 Conclusion
+
 This project demonstrates a basic ETL pipeline using Python. It extracts GDP data from a web page, transforms the data into a cleaner and more useful format, and loads it into both a CSV file and a SQLite database.
 The project is useful for practicing important data engineering concepts such as extraction, transformation, loading, database storage, SQL querying, and process logging.
 
-One small change: replace this part:
 
 ```text
 Hedieh
