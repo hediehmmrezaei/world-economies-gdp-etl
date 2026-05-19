@@ -60,6 +60,4 @@ Conclusion
 This project demonstrates a basic ETL pipeline using Python. It extracts GDP data from a web page, transforms the data into a cleaner and more useful format, and loads it into both a CSV file and a SQLite database.
 The project is useful for practicing important data engineering concepts such as extraction, transformation, loading, database storage, SQL querying, and process logging.
 
-
-```text
 Hedieh
